@@ -1,0 +1,25 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-header {
+  width: 100%;
+  height: 516px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/frontcircleanddoor-1500w.jpg");
+  background-position: top;
+}
+.home-text {
+  color: #ffffff;
+  margin: var(--dl-space-space-unit);
+  align-self: flex-start;
+  text-align: left;
+}
