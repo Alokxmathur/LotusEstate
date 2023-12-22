@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>PoolController</groupId>
+  <artifactId>PoolController</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>17</release>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.3</version>
+      </plugin>
+    </plugins>
+  </build>
+    <dependencies>
+  	<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>javax.servlet-api</artifactId>
+	    <version>4.0.1</version>
+	    <scope>provided</scope>
+	</dependency>	<!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
+	<dependency>
+	    <groupId>commons-fileupload</groupId>
+	    <artifactId>commons-fileupload</artifactId>
+	    <version>1.4</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		
+
+	<!-- https://mvnrepository.com/artifact/com.lowagie/itext -->
+	<dependency>
+	    <groupId>com.lowagie</groupId>
+	    <artifactId>itext</artifactId>
+	    <version>2.1.7</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.directory.studio/org.apache.commons.codec -->
+	<dependency>
+	    <groupId>org.apache.directory.studio</groupId>
+	    <artifactId>org.apache.commons.codec</artifactId>
+	    <version>1.8</version>
+	</dependency>
+	<!-- library to extract image exif data for proper rotation when printing -->
+	<dependency>	
+	  <groupId>com.drewnoakes</groupId>
+	  <artifactId>metadata-extractor</artifactId>
+	  <version>2.17.0</version>
+	</dependency>	
+	
+	<dependency>
+		<groupId>com.axiomtank</groupId>
+		<artifactId>axiomtank</artifactId>
+		<version>4.2.0</version>
+	</dependency>	
+		
+  </dependencies>
+</project>
